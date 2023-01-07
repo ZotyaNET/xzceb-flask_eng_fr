@@ -3,7 +3,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 authenticator = IAMAuthenticator('9zz14Prg2NuRnvaKKfsS7KQhBWZjotwru2M9ZJ8Dv2fJ')
 language_translator = LanguageTranslatorV3(
-    version='{version}',
+    version='2018-05-01',
     authenticator=authenticator
 )
 
